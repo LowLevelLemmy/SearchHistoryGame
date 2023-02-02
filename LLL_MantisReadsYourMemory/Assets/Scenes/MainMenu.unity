@@ -199,7 +199,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &128433376
 Animator:
-  serializedVersion: 3
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -212,10 +212,11 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!4 &128433379 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1911790107305173976, guid: 21f0a28a755b047478486be14039a153, type: 3}
@@ -653,6 +654,7 @@ GameObject:
   - component: {fileID: 617456738}
   - component: {fileID: 617456737}
   - component: {fileID: 617456739}
+  - component: {fileID: 617456740}
   m_Layer: 5
   m_Name: StatsButton
   m_TagString: Untagged
@@ -832,6 +834,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &617456740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 617456735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c687e35f593f37d4cae2736897b70a46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &803672566
 GameObject:
   m_ObjectHideFlags: 0
@@ -1335,6 +1349,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
   m_RenderPostProcessing: 0
   m_Antialiasing: 0
   m_AntialiasingQuality: 2

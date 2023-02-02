@@ -36,9 +36,7 @@ public class HistoryParser
         for (int i = 0; i < historyLocations.Count; ++i)
         {
             List<KeywordResult> searchTermsWeMeet = GetMatchedSearchTerms(historyLocations[i]);
-            Debug.Log(searchTermsWeMeet);
-
-            //AddToMasterMasterKRList(ref masterKeyWordMatches, ref searchTermsWeMeet);
+            AddToMasterMasterKRList(ref masterKeyWordMatches, ref searchTermsWeMeet);
         }
 
         return masterKeyWordMatches;
@@ -59,9 +57,7 @@ public class HistoryParser
             IDbCommand cmnd_read = dbcon.CreateCommand();
             IDataReader reader;
 
-            string query = searchTerm.query;
-
-            cmnd_read.CommandText = query;
+            cmnd_read.CommandText = searchTerm.query;
             reader = cmnd_read.ExecuteReader();
 
             int count = 0;
@@ -71,6 +67,7 @@ public class HistoryParser
             if (count > 0)
             {
                 KeywordResult kr = new KeywordResult(searchTerm, count);
+                kr.Print();
                 searchTermsWeMatch.Add(kr);
             }
         }

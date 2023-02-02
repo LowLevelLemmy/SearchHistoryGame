@@ -1,0 +1,150 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 09.03.2017 14:36:14
+
+newmtl m_chairs
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.588235 0.588235 0.588235
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka C:\Users\Justin\Desktop\80sLibrarySource\LibraryEnviron\chairD.tga
+	map_Kd C:\Users\Justin\Desktop\80sLibrarySource\LibraryEnviron\chairD.tga
+
+newmtl m_table
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka C:\Users\Justin\Desktop\80sLibrarySource\LibraryEnviron\tableD.tga
+	map_Kd C:\Users\Justin\Desktop\80sLibrarySource\LibraryEnviron\tableD.tga
+
+newmtl m_computer
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.588235 0.588235 0.588235
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka C:\Users\Justin\Desktop\80sLibrarySource\LibraryEnviron\computerD.tga
+	map_Kd C:\Users\Justin\Desktop\80sLibrarySource\LibraryEnviron\computerD.tga
+
+newmtl temp
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.211765 0.211765 0.211765
+	Kd 0.211765 0.211765 0.211765
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+
+newmtl m_dark
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.129412 0.129412 0.129412
+	Kd 0.129412 0.129412 0.129412
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+
+newmtl m_walls
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 1.000000 0.870588 0.588235
+	Kd 1.000000 0.870588 0.588235
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+
+newmtl m_carpet
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka C:\Users\Justin\Desktop\80sLibrarySource\LibraryEnviron\carpet.tga
+	map_Kd C:\Users\Justin\Desktop\80sLibrarySource\LibraryEnviron\carpet.tga
+	map_bump C:\Users\Justin\Desktop\80sLibrarySource\LibraryEnviron\carpetNM.tga
+	bump C:\Users\Justin\Desktop\80sLibrarySource\LibraryEnviron\carpetNM.tga
+
+newmtl m_shelves
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka C:\Users\Justin\Desktop\80sLibrarySource\LibraryEnviron\shelves.tga
+	map_Kd C:\Users\Justin\Desktop\80sLibrarySource\LibraryEnviron\shelves.tga
+
+newmtl m_plant
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.588235 0.588235 0.588235
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka C:\Users\Justin\Desktop\80sLibrarySource\LibraryEnviron\plantD.tga
+	map_Kd C:\Users\Justin\Desktop\80sLibrarySource\LibraryEnviron\plantD.tga
+
+newmtl m_blinds
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588235 0.588235 0.588235
+	Kd 0.588235 0.588235 0.588235
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+
+newmtl m_books
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka C:\Users\Justin\Desktop\80sLibrarySource\LibraryEnviron\books.tga
+	map_Kd C:\Users\Justin\Desktop\80sLibrarySource\LibraryEnviron\books.tga

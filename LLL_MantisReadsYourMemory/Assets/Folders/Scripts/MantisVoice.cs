@@ -63,13 +63,17 @@ public class MantisVoice : MonoBehaviour
 
         if (searchesMatched.Count == 0)
         {
-            yield return StartCoroutine(PlayAudClip(GetAudioFromPath("NoHistory")));
+            yield return StartCoroutine(PlayAudClip(GetAudioFromPath("NoHistory")));    // Wow your browser history is clean! Too clean.
         }
 
         foreach (var kr in searchesMatched)  // Play History aud Clips
         {
             AudioClip audClip = GetAudioFromPath(kr.wavFileName);
-            print(kr.caption + " " + kr.instances);
+            if (!audClip)
+            {
+                print("MISSING AUDIO CLIP: " + kr.wavFileName);
+                continue;
+            }
             instancesPanel.SetTexts(kr.caption, kr.instances);
             instancesPanel.Animate(0.3f, audClip.length * .9f);
             yield return StartCoroutine(PlayAudClip(audClip));

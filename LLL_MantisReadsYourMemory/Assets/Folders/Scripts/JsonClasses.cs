@@ -23,7 +23,13 @@ public class HistorySearchTermsJson
 //Games
 public class JsonGamesClass
 {
-    public List<string> games { get; set; }
+    public List<GameItem> games { get; set; }
+}
+
+public class GameItem
+{
+    public string gameDir { get; set; }
+    public string wavName { get; set; }
 }
 
 

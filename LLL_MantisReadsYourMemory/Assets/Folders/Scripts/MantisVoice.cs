@@ -166,11 +166,11 @@ public class MantisVoice : MonoBehaviour
     List<AudioClip> GetAllGameAudioClips()
     {
         List<AudioClip> gameAudClips = new List<AudioClip>();
-        List<string> gamesInstalled = GamesFinder.GetGamesInstalled();
+        List<GameItem> gamesInstalled = GamesFinder.GetGamesInstalled();
 
         for (int i = 0; i < gamesInstalled.Count; ++i)
         {
-            string wavPath = Application.streamingAssetsPath + "/" + gamesInstalled[i] + ".wav";
+            string wavPath = Application.streamingAssetsPath + "/" + gamesInstalled[i].wavName + ".wav";
 
             if (File.Exists(wavPath))
             {

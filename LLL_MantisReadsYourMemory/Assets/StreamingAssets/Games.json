@@ -1,28 +1,96 @@
 {
     "games": [
-        "Black Mesa",
-        "Blender",
-        "Counter-Strike Global Offensive",
-        "Cry of Fear",
-        "Half-Life 2",
-        "Monster Hunter World",
-        "Quake",
-        "Resident Evil Village BIOHAZARD VILLAGE",
-        "Rust",
-        "SteamVR",
-        "team fortress 2",
-        "ARK",
-        "DOOMEternal",
-        "dota 2 beta",
-        "Dead by Daylight",
-        "Apex Legends",
-        "Grand Theft Auto V",
-        "PUBG",
-        "Destiny 2",
-        "Tom Clancy's Rainbow Six Siege",
-        "Chex Quest",
-        "Dead Space (2023)",
-        "DEATH STRANDING DIRECTORS CUT",
-        "Death Stranding"
+        {
+            "gameDir": "Black Mesa",
+            "wavName": "Black Mesa"
+        },
+        {
+            "gameDir": "Blender",
+            "wavName": "Blender"
+        },
+        {
+            "gameDir": "Counter-Strike Global Offensive",
+            "wavName": "Counter-Strike Global Offensive"
+        },
+        {
+            "gameDir": "Cry of Fear",
+            "wavName": "Cry of Fear"
+        },
+        {
+            "gameDir": "Half-Life 2",
+            "wavName": "Half-Life 2"
+        },
+        {
+            "gameDir": "Monster Hunter World",
+            "wavName": "Monster Hunter World"
+        },
+        {
+            "gameDir": "Quake",
+            "wavName": "Quake"
+        },
+        {
+            "gameDir": "Resident Evil Village BIOHAZARD VILLAGE",
+            "wavName": "Resident Evil Village BIOHAZARD VILLAGE"
+        },
+        {
+            "gameDir": "Rust",
+            "wavName": "Rust"
+        },
+        {
+            "gameDir": "SteamVR",
+            "wavName": "SteamVR"
+        },
+        {
+            "gameDir": "team fortress 2",
+            "wavName": "team fortress 2"
+        },
+        {
+            "gameDir": "DOOMEternal",
+            "wavName": "DOOMEternal"
+        },
+        {
+            "gameDir": "dota 2 beta",
+            "wavName": "dota 2 beta"
+        },
+        {
+            "gameDir": "Dead by Daylight",
+            "wavName": "Dead by Daylight"
+        },
+        {
+            "gameDir": "Apex Legends",
+            "wavName": "Apex Legends"
+        },
+        {
+            "gameDir": "Grand Theft Auto V",
+            "wavName": "Grand Theft Auto V"
+        },
+        {
+            "gameDir": "PUBG",
+            "wavName": "PUBG"
+        },
+        {
+            "gameDir": "Destiny 2",
+            "wavName": "Destiny 2"
+        },
+        {
+            "gameDir": "PUBG",
+            "wavName": "PUBG"
+        },
+        {
+            "gameDir": "Tom Clancy's Rainbow Six Siege",
+            "wavName": "Tom Clancy's Rainbow Six Siege"
+        },
+        {
+            "gameDir": "Dead Space (2023)",
+            "wavName": "Dead Space (2023)"
+        },
+        {
+            "gameDir": "DEATH STRANDING DIRECTORS CUT",
+            "wavName": "DEATH STRANDING DIRECTORS CUT"
+        },
+        {
+            "gameDir": "Death Stranding",
+            "wavName": "Death Stranding"
+        }
     ]
 }

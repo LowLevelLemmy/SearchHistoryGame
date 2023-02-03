@@ -29,7 +29,7 @@ public class DEBUG_UI_GameStatPlacer : MonoBehaviour
         var abba = GamesFinder.GetGamesInstalled();
         foreach (var i in abba)
         {
-            SpawnEntry(i, 1);
+            SpawnEntry(i.gameDir, 1);
         }
     }
 

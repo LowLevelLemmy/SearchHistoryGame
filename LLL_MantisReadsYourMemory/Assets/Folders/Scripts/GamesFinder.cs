@@ -10,20 +10,20 @@ public class GamesFinder
     static string epicDir = @"C:\Program Files\Epic Games\";
     static string ubisoftDir = @"C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\games\";
 
-    public static List<string> GetGamesInstalled()
+    public static List<GameItem> GetGamesInstalled()
     {
-        List<string> gamesInstalled = new List<string>();
-        List<string> games = GetGamesList();
+        List<GameItem> gamesInstalled = new List<GameItem>();
+        var games = GetGamesList();
 
-        foreach (string game in games)
+        foreach (var game in games)
         {
-            if (CheckIfGameExists(game))
+            if (CheckIfGameExists(game.gameDir))
                 gamesInstalled.Add(game);
         }
         return gamesInstalled;
     }
 
-    public static List<string> GetGamesList()
+    public static List<GameItem> GetGamesList()
     {
         var sr = new StreamReader(Application.streamingAssetsPath + "/" + "games.json");
         JsonGamesClass myDeserializedClass = JsonConvert.DeserializeObject<JsonGamesClass>(sr.ReadToEnd());
@@ -40,6 +40,9 @@ public class GamesFinder
             return true;
 
         if (Directory.Exists(epicDir + game))
+            return true;
+
+        if (Directory.Exists(game))
             return true;
 
         return false;

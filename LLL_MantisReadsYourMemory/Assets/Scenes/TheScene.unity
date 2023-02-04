@@ -169,7 +169,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.778002, y: 1}
+    m_SensorSize: {x: 1.7767106, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -393,7 +393,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.778002, y: 1}
+    m_SensorSize: {x: 1.7767106, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -463,7 +463,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.778002, y: 1}
+    m_SensorSize: {x: 1.7767106, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -976,7 +976,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.778002, y: 1}
+    m_SensorSize: {x: 1.7767106, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -1046,7 +1046,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.778002, y: 1}
+    m_SensorSize: {x: 1.7767106, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -2607,21 +2607,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: LemmyMantis
       objectReference: {fileID: 0}
+    - target: {fileID: 1280106780624927074, guid: 21f0a28a755b047478486be14039a153, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1324872555918323455, guid: 21f0a28a755b047478486be14039a153, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.000019878144
+      value: -0.000019878145
       objectReference: {fileID: 0}
     - target: {fileID: 1324872555918323455, guid: 21f0a28a755b047478486be14039a153, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.6372266
+      value: 0.63722664
       objectReference: {fileID: 0}
     - target: {fileID: 1324872555918323455, guid: 21f0a28a755b047478486be14039a153, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000017136332
+      value: 0.000017136334
       objectReference: {fileID: 0}
     - target: {fileID: 1324872555918323455, guid: 21f0a28a755b047478486be14039a153, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.77067643
+      value: 0.7706765
       objectReference: {fileID: 0}
     - target: {fileID: 1324872555918323455, guid: 21f0a28a755b047478486be14039a153, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2713,7 +2717,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: a756f9b21ff3e6d45b25df22920835e9, type: 2}
     - target: {fileID: 3023069041941204971, guid: 21f0a28a755b047478486be14039a153, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7706766
+      value: 0.7706767
       objectReference: {fileID: 0}
     - target: {fileID: 3023069041941204971, guid: 21f0a28a755b047478486be14039a153, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2721,11 +2725,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3023069041941204971, guid: 21f0a28a755b047478486be14039a153, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.6372264
+      value: -0.63722646
       objectReference: {fileID: 0}
     - target: {fileID: 3023069041941204971, guid: 21f0a28a755b047478486be14039a153, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.000000044703473
+      value: -0.000000044703476
       objectReference: {fileID: 0}
     - target: {fileID: 3023069041941204971, guid: 21f0a28a755b047478486be14039a153, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y

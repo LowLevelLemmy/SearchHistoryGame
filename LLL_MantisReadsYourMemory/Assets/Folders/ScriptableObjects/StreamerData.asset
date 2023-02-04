@@ -9,7 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: c92ddd1cf8d35a24f88fa8399b640c37, type: 3}
   m_Name: StreamerData
-  m_EditorClassIdentifier: Assembly-CSharp::SpawnManagerScriptableObject
-  streamerName: 
+  m_EditorClassIdentifier: 
+  gameTitle: MIzKiv Game
+  mantisFaceTex: {fileID: 2800000, guid: 75a2a6bb121733a4e9f8e9b83df0edf0, type: 3}

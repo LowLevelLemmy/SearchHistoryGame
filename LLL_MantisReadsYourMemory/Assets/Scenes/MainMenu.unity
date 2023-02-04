@@ -661,7 +661,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &617456736
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1372,6 +1372,7 @@ GameObject:
   - component: {fileID: 1645734028}
   - component: {fileID: 1645734030}
   - component: {fileID: 1645734029}
+  - component: {fileID: 1645734031}
   m_Layer: 5
   m_Name: MainMenu (2)
   m_TagString: Untagged
@@ -1419,7 +1420,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ____ The Game
+  m_text: My first game!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8953df4d17754c348a70c786c02fe4f8, type: 2}
   m_sharedMaterial: {fileID: -2785482761345616831, guid: 8953df4d17754c348a70c786c02fe4f8, type: 2}
@@ -1446,12 +1447,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 90
+  m_fontSize: 84.33
   m_fontSizeBase: 90
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 84.33
   m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -1496,6 +1497,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1645734027}
   m_CullTransparentMesh: 1
+--- !u!114 &1645734031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645734027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de96192784f42cf4db5b76829cd67e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  txt: {fileID: 1645734029}
+  so: {fileID: 11400000, guid: b4065004718a4c94f964a656d9b8dd6c, type: 2}
 --- !u!1 &1704996000
 GameObject:
   m_ObjectHideFlags: 0

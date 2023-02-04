@@ -1,7 +1,8 @@
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Data", menuName = "ScriptableObjects/StreamerSO", order = 1)]
-public class SpawnManagerScriptableObject : ScriptableObject
+public class StreamerSO : ScriptableObject
 {
-    public string streamerName;
+    public string gameTitle;
+    public Texture2D mantisFaceTex;
 }

@@ -34,11 +34,11 @@ public class MantisVoice : MonoBehaviour
             yield break;
         }
 
-        yield return StartCoroutine(PlayAudClip(GetAudioFromPath("intro")));
+        //yield return StartCoroutine(PlayAudClip(GetAudioFromPath("intro")));
 
-        yield return StartCoroutine(PlayGameClips());
+        //yield return StartCoroutine(PlayGameClips());
 
-        yield return StartCoroutine(PlayAudClip(GetAudioFromPath("MiddleSegway")));
+        //yield return StartCoroutine(PlayAudClip(GetAudioFromPath("MiddleSegway")));
 
         yield return StartCoroutine(PlayHistoryClips());
 
